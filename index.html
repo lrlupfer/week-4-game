@@ -3,13 +3,78 @@
 <head>
 	<title>Crystals Collector Game</title>
 
-	<link rel="stylesheet" type="text/css" src="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" src="assets/css/style.css">
+	<!-- Meyerweb reset -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- My stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 </head>
 <body>
 
+<!-- Game header row -->
+<div class="row1">
+	<div class="col-lg-12 gameHeader">
+		<h1>Crystals Collector Game</h1>
+		<h2>Let's play!</h2>
+	</div>
+</div>
 
+<!-- Game rules row -->
+<div class="row2">
+	<div class="col-lg-12 gameRules">
+		<br>
+		<br>
+		<p>Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here.</p>
+	</div>
+</div>
 
+<!-- Randomly generated number for player to match -->
+<div class="row3">
+	<div class="col-sm-12">
+		<h4>Use the crystals' value to match this number: <span class="gameValue">34</span></h4>
+	</div>
+</div>
+
+<!-- Game row -->
+<div class="row4">
+	<div class="col-md-3">
+		<img src="assets/images/gem-1.png" alt="crystal 1" id="gem1">
+	</div>
+
+	<div class="col-md-3">
+		<img src="assets/images/gem-2.png" alt="crystal 1" id="gem2">
+	</div>
+
+	<div class="col-md-3">
+		<img src="assets/images/gem-3.png" alt="crystal 1" id="gem3">
+	</div>
+
+	<div class="col-md-3">
+		<img src="assets/images/gem-4.png" alt="crystal 1" id="gem4">
+	</div>
+</div>
+
+<!-- Game score row -->
+<div class="row5">
+	<div class="col-lg-12">
+		<h3>Your total score: <span id="gameScore">0</span></h3>
+	</div>
+</div>
+
+<!-- Win/loss count row -->
+<div class="row6">
+	<div class="col-lg-12">
+		<h4>Wins: <span id="winCount">0</span></h4>
+		<h4>Losses: <span id="lossCount">0</span></h4>
+	</div>
+</div>
+
+	<!-- My Javascript -->
 	<script src="assets/javascript/game.js"></script>
+
 </body>
 </html>
