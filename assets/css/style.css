@@ -1,9 +1,11 @@
 body {
 	background-image: url("../../assets/images/diamonds.png");
+	color: #1171DD;
 }
 
 .gameHeader {
 	text-align: center;
+	color: #C685C1;
 }
 
 .gameRules {
@@ -12,4 +14,8 @@ body {
 
 .row3, .row4, .row5, .row6 {
 	text-align: center;
+}
+
+.allGems {
+	padding: 10px;
 }

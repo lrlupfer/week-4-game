@@ -25,51 +25,53 @@
 
 <!-- Game rules row -->
 <div class="row2">
-	<div class="col-lg-12 gameRules">
+	<div class="col-lg-4 gameRules"></div>
+	<div class="col-lg-4 gameRules">
 		<br>
 		<br>
-		<p>Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here. Insert paragraph with game rules here.</p>
+		<p>Each of the crystals below has a randomly assigned numerical value. Click on the crystals to discover their values, and use them to make your game score match the randomly assigned number below without going over!</p>
 	</div>
+	<div class="col-lg-4 gameRules"></div>
 </div>
 
 <!-- Randomly generated number for player to match -->
 <div class="row3">
 	<div class="col-sm-12">
-		<h4>Use the crystals' value to match this number: <span class="gameValue">34</span></h4>
+		<h4>Use the crystals' value to match this number: <span id="matchNumber"></span></h4>
 	</div>
 </div>
 
 <!-- Game row -->
 <div class="row4">
 	<div class="col-md-3">
-		<img src="assets/images/gem-1.png" alt="crystal 1" id="gem1">
+		<img src="assets/images/gem-1.png" alt="crystal 1" id="gem1" class="allGems">
 	</div>
 
 	<div class="col-md-3">
-		<img src="assets/images/gem-2.png" alt="crystal 1" id="gem2">
+		<img src="assets/images/gem-2.png" alt="crystal 2" id="gem2" class="allGems">
 	</div>
 
 	<div class="col-md-3">
-		<img src="assets/images/gem-3.png" alt="crystal 1" id="gem3">
+		<img src="assets/images/gem-3.png" alt="crystal 3" id="gem3" class="allGems">
 	</div>
 
 	<div class="col-md-3">
-		<img src="assets/images/gem-4.png" alt="crystal 1" id="gem4">
+		<img src="assets/images/gem-4.png" alt="crystal 4" id="gem4" class="allGems">
 	</div>
 </div>
 
 <!-- Game score row -->
 <div class="row5">
 	<div class="col-lg-12">
-		<h3>Your total score: <span id="gameScore">0</span></h3>
+		<h3>Your game score: <span id="gameScore"></span></h3>
 	</div>
 </div>
 
 <!-- Win/loss count row -->
 <div class="row6">
 	<div class="col-lg-12">
-		<h4>Wins: <span id="winCount">0</span></h4>
-		<h4>Losses: <span id="lossCount">0</span></h4>
+		<h4>Total wins: <span id="winCount"></span></h4>
+		<h4>Total losses: <span id="lossCount"></span></h4>
 	</div>
 </div>
 
